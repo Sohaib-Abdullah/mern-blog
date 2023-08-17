@@ -1,0 +1,37 @@
+
+.header {
+    /* margin-top: 1px; */
+}
+.headerTitles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #444;
+}
+.headerTitlesSm {
+    position: absolute;
+    top: 18%;
+    font-size: 20px;
+}
+.headerTitlesLg {
+    position: absolute;
+    top: 20%;
+    font-size: 100px;
+}
+.headerImg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    /* width: 90%; */
+    /* height: 450px; */
+    object-fit: cover;
+}
+.headerImg img {
+    width: 93%;
+    height: 450px;
+    border-radius: 7px;
+}
+.logout {
+    cursor: pointer;
+}

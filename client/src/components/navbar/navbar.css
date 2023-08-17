@@ -1,0 +1,31 @@
+.navbarContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+    height: 50px;
+
+}
+.navbarName {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: whitesmoke;
+
+}
+.navbar-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.navbar-links span {
+    color: white;
+    font-weight: bold;
+    margin: 10px;
+}
+.favLink {
+    color: white;
+    font-weight: bold;
+    margin-left: 10px;
+}
